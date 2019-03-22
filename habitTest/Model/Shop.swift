@@ -47,5 +47,8 @@ class Shop: NSObject {
             self.maxoffer = maxoffer
         }
 
+        if let cover = json["cover"] as? String {
+            self.cover = cover
+        }
     }
 }
